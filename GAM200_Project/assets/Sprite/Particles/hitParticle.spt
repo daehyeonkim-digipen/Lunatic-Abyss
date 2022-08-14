@@ -1,0 +1,12 @@
+assets/Sprite/Particles/
+hitParticle.png
+
+HotSpot 16 45
+FrameSize 96 96
+
+Frame 0 0
+Frame 96 0
+Frame 192 0
+Frame 288 0
+
+Anim hitParticle.anm

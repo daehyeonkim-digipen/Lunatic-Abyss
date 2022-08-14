@@ -1,0 +1,9 @@
+assets/Sprite/Particles/
+GuardParticle.png
+
+HotSpot 88 119
+FrameSize 184 128
+
+FrameGrid 7 1
+
+Anim GuardParticle.anm

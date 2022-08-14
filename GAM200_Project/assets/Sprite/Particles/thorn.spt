@@ -1,0 +1,12 @@
+assets/Sprite/Particles/
+thorn.png
+
+HotSpot 75 199
+FrameSize 150 200
+
+Frame 0 0
+Frame 150 0
+Frame 300 0
+Frame 450 0
+
+Anim thorn.anm

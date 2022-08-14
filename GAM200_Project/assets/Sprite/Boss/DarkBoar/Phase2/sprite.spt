@@ -1,0 +1,17 @@
+assets/Sprite/Boss/DarkBoar/Phase2/
+undead.png
+
+FrameSize 400 300
+HotSpot 190 266
+CollisionRect -30 0 30 130
+
+FrameGrid 11 6
+
+Anim man_appear.anm
+Anim man_idle.anm
+Anim man_move.anm
+Anim man_attack1.anm
+Anim man_attack2.anm
+Anim man_battlecry.anm
+Anim man_slide.anm
+Anim man_dead.anm

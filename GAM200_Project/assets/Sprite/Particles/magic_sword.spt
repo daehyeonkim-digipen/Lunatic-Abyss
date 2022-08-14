@@ -1,0 +1,9 @@
+assets/Sprite/Particles/
+magic_sword.png
+
+FrameSize 500 500
+HotSpot 0 500
+
+FrameGrid 14 1
+
+Anim magic_sword.anm

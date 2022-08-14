@@ -1,0 +1,22 @@
+assets/Sprite/Player/
+Player.png
+
+FrameSize 184 128
+HotSpot 88 119
+
+CollisionRect -10 0 10 65
+
+FrameGrid 6 8
+
+Anim Player_Atk_1.anm
+Anim Player_Atk_2.anm
+Anim Player_SuperAtk.anm
+Anim Player_Idle.anm
+Anim Player_Run.anm
+Anim Player_Falling.anm
+Anim Player_Jumping.anm
+Anim Player_Gurad.anm
+Anim Player_Charge.anm
+Anim Player_Damaged.anm
+Anim Player_Dead.anm
+

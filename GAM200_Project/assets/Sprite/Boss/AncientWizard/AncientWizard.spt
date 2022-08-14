@@ -1,0 +1,17 @@
+assets/Sprite/Boss/AncientWizard/
+AncientWizard.png
+
+FrameSize 200 200
+HotSpot 100 200
+CollisionRect -40 0 40 150
+
+FrameGrid 8 10
+
+Anim idle.anm
+Anim attack.anm
+Anim attack2.anm
+Anim magic.anm
+Anim balckhole.anm
+Anim telin.anm
+Anim telout.anm
+Anim dead.anm

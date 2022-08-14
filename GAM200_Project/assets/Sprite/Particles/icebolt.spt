@@ -1,0 +1,11 @@
+assets/Sprite/Particles/
+icebolt.png
+
+
+FrameSize 64 64
+HotSpot 32 64
+
+FrameGrid 8 1
+
+
+Anim icebolt.anm

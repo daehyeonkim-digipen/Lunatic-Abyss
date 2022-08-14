@@ -1,0 +1,15 @@
+assets/Sprite/Boss/SkullTree/
+sktree.png
+
+FrameSize 490 485
+HotSpot 435 475
+CollisionRect -100 0 40 450
+
+FrameGrid 10 13
+
+Anim idle.anm
+Anim explo_Atk.anm
+Anim root_Atk.anm
+Anim thorn_Atk.anm
+Anim atk.anm
+Anim dead.anm

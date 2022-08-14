@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Engine\ComponentManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Animation.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MainMenu.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CollisionBlock.cpp">
+      <Filter>Game\GOM</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Collision.cpp">
+      <Filter>Engine\Math\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Background.cpp">
+      <Filter>Game\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Hitbox.cpp">
+      <Filter>Game\GOM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Settings.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphic.cpp">
+      <Filter>Engine\Graphic\openGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Font.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Button.cpp">
+      <Filter>Game\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Slider.cpp">
+      <Filter>Game\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HUD.cpp">
+      <Filter>Game\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ShowCollision.cpp">
+      <Filter>Engine\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Gravity.cpp">
+      <Filter>Game\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DarkBoar.cpp">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GOAttribute.cpp">
+      <Filter>Game\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Cinematic.cpp">
+      <Filter>Game\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameMap.cpp">
+      <Filter>Game\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Particles.cpp">
+      <Filter>Game\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Cheat.cpp">
+      <Filter>Game\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Frontground.cpp">
+      <Filter>Game\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\STstage.cpp">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DBstage.cpp">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Engine\GameObjectManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game.cpp">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Logger.cpp">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ParticleEmitter.cpp">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Splash.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SkullTree.cpp">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FallenAngel.cpp">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FAstage.cpp">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Trainer.cpp">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TutorialStage.cpp">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StatScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CustomShader.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ShaderManager.cpp">
+      <Filter>Engine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ShaderEffect.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AtmosphericalDustEmitter.cpp">
+      <Filter>Engine\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\AWstage.cpp">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\AncientWizard.cpp">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{dcc1a39c-69a8-4f8c-910f-fb835a7bec55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4c66fbab-63fb-4066-bad7-b9e9def80147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Manager">
+      <UniqueIdentifier>{061ee267-c1ef-498b-bb9c-8bb526e7c97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphic">
+      <UniqueIdentifier>{39079866-f5eb-49ca-ae78-6ad65a0c6991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math">
+      <UniqueIdentifier>{cbe17a16-7acb-4f5a-8dbd-df468b2e70a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GOM">
+      <UniqueIdentifier>{4e01c498-8677-4e72-90c9-36cfcbcb0b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{81fbe8fa-406a-4eff-a191-4fc632e9b819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{72415ca4-39a4-4028-ab76-eff2a07c5806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Math\Physics">
+      <UniqueIdentifier>{ab7f2a39-9b8c-43da-81a1-4472bfc20d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Graphics">
+      <UniqueIdentifier>{f2ad394c-aa0b-4ba9-b9ac-42a53468d4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphic\openGL">
+      <UniqueIdentifier>{f36ab7f7-b0e4-48f1-9843-12687727eecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Interfaces">
+      <UniqueIdentifier>{ed84610d-0a4a-4f29-aba5-b61e538eecbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GOM\Entity">
+      <UniqueIdentifier>{7d70aa48-651d-477b-b291-087e654dfd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\other">
+      <UniqueIdentifier>{2e481736-9a79-46cf-9929-37c1016fadfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\other">
+      <UniqueIdentifier>{73b1f38c-3e8c-4886-9348-40cac26e8812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Terrain">
+      <UniqueIdentifier>{9db2dd00-3f29-456d-ab40-a826c9cee03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\BossStages">
+      <UniqueIdentifier>{a46db185-20a6-422a-abb0-05f766f14fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\EngineComponent">
+      <UniqueIdentifier>{9fb6422d-f4bf-4cd2-9005-75f26a7957b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\ComponentManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math.h">
+      <Filter>Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Animation.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MainMenu.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CollisionBlock.h">
+      <Filter>Game\GOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collision.h">
+      <Filter>Engine\Math\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Background.h">
+      <Filter>Game\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Hitbox.h">
+      <Filter>Game\GOM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Settings.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphic.h">
+      <Filter>Engine\Graphic\openGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Font.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Button.h">
+      <Filter>Game\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Slider.h">
+      <Filter>Game\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HUD.h">
+      <Filter>Game\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene.h">
+      <Filter>Engine\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ShowCollision.h">
+      <Filter>Engine\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Gravity.h">
+      <Filter>Game\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\DarkBoar.h">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GOAttribute.h">
+      <Filter>Game\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Cinematic.h">
+      <Filter>Game\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameMap.h">
+      <Filter>Game\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Particles.h">
+      <Filter>Game\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Cheat.h">
+      <Filter>Game\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Frontground.h">
+      <Filter>Game\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\STstage.h">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\DBstage.h">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObjectManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game.h">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Logger.h">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ParticleEmitter.h">
+      <Filter>Engine\EngineComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Splash.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SkullTree.h">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FallenAngel.h">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FAStage.h">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Trainer.h">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TutorialStage.h">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StatScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CustomShader.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ShaderManager.h">
+      <Filter>Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ShaderEffect.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AtmosphericalDustEmitter.h">
+      <Filter>Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\AWstage.h">
+      <Filter>Game\Scenes\BossStages</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\AncientWizard.h">
+      <Filter>Game\GOM\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Math.inl">
+      <Filter>Engine\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

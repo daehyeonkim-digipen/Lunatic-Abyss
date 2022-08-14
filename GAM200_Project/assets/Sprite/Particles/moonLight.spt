@@ -1,0 +1,9 @@
+assets/Sprite/Particles/
+moonLight.png
+
+FrameSize 146 72
+HotSpot 146 36
+
+FrameGrid 4 1
+
+Anim moonLight.anm

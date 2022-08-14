@@ -1,0 +1,5 @@
+MOVE 		: A, D
+JUMP 			: Space
+ATTACK		: Left Mouse Click
+HEAVY ATTACK	: Left Shift + Left Mouse Click
+GUARD		: Right Mouse Click

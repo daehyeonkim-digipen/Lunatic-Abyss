@@ -1,0 +1,9 @@
+Damage + 3
+Increases Damage in proportion to maximum HP.
+Increases Attack Speed.
+HP + 30, HP recovery efficiency + 20%
+Reduces the knockback time.
+purify every debuff, being Immune for knockbacks for 5 seconds
+LP + 30, LP gain + 20%
+Able to defend some undefensible attack with reduced damage.
+Revive once with 50% of maximum HP.

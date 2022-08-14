@@ -1,0 +1,16 @@
+assets/Sprite/Boss/FallenAngel2/
+FallenAngel2.png
+
+FrameSize 500 500
+HotSpot 250 480
+CollisionRect -45 0 45 260
+
+FrameGrid 12 10
+
+Anim idle.anm
+Anim Jump.anm
+Anim Descent.anm
+Anim WarpIn.anm
+Anim WarpAttack.anm
+Anim Attack.anm
+Anim dead.anm

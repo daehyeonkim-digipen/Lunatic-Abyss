@@ -1,0 +1,14 @@
+assets/Sprite/Particles/
+Root.png
+
+FrameSize 150 200
+HotSpot 75 199
+
+Frame 0 0
+Frame 150 0
+Frame 300 0
+Frame 450 0
+Frame 600 0
+Frame 750 0
+
+Anim Root.anm

@@ -1,0 +1,10 @@
+assets/Sprite/Particles/
+confusion.png
+
+
+FrameSize 150 150
+HotSpot 75 119
+
+FrameGrid 4 1
+
+Anim confusion.anm

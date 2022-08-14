@@ -1,0 +1,20 @@
+assets/Sprite/Particles/
+WingAttack.png
+
+
+FrameSize 600 260
+HotSpot 300 0
+
+Frame 0 0
+Frame 600 0
+Frame 1200 0
+Frame 1800 0
+Frame 2400 0
+Frame 3000 0
+Frame 3600 0
+Frame 4200 0
+Frame 4800 0
+Frame 5400 0
+
+
+Anim WingAttack.anm

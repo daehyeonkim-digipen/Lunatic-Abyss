@@ -1,0 +1,14 @@
+assets/Sprite/Particles/
+RunParticle.png
+
+HotSpot 75 5
+FrameSize 150 80
+
+Frame 0 0
+Frame 150 0
+Frame 300 0
+Frame 450 0
+Frame 600 0
+Frame 750 0
+
+Anim RunParticle.anm

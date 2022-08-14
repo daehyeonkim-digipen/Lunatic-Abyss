@@ -1,0 +1,9 @@
+assets/Sprite/Particles/
+rebirth.png
+
+FrameSize 150 150
+HotSpot 75 119
+
+FrameGrid 10 1
+
+Anim rebirth.anm

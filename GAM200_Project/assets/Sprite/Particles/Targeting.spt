@@ -1,0 +1,11 @@
+assets/Sprite/Particles/
+Targeting.png
+
+
+FrameSize 192 192
+HotSpot 96 192
+
+FrameGrid 5 7
+
+
+Anim Targeting.anm

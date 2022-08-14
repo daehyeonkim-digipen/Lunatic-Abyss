@@ -1,0 +1,9 @@
+assets/Sprite/Particles/
+shield.png
+
+FrameSize 150 150
+HotSpot 75 119
+
+FrameGrid 8 1
+
+Anim shield.anm

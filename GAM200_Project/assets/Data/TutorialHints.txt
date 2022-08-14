@@ -1,0 +1,6 @@
+Left Click to Attack.
+Right Click to Guard.
+If you hit enemy, the gauge will increase.
+With filled gauge, you can ignore the knockback when you guard.
+With filled gauge, you can Charge attack with holding LShift and press LClick.
+The more you charge, the more damage you can give.

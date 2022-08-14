@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Animation.cpp" />
+    <ClCompile Include="Engine\AtmosphericalDustEmitter.cpp" />
+    <ClCompile Include="Engine\Camera.cpp" />
+    <ClCompile Include="Engine\Collision.cpp" />
+    <ClCompile Include="Engine\ComponentManager.cpp" />
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\Font.cpp" />
+    <ClCompile Include="Engine\Game.cpp" />
+    <ClCompile Include="Engine\GameObject.cpp" />
+    <ClCompile Include="Engine\GameObjectManager.cpp" />
+    <ClCompile Include="Engine\Input.cpp" />
+    <ClCompile Include="Engine\Logger.cpp" />
+    <ClCompile Include="Engine\Graphic.cpp" />
+    <ClCompile Include="Engine\ParticleEmitter.cpp" />
+    <ClCompile Include="Engine\SceneManager.cpp" />
+    <ClCompile Include="Engine\Audio.cpp" />
+    <ClCompile Include="Engine\CustomShader.cpp" />
+    <ClCompile Include="Engine\ShaderManager.cpp" />
+    <ClCompile Include="Engine\ShaderEffect.cpp" />
+    <ClCompile Include="Engine\ShowCollision.cpp" />
+    <ClCompile Include="Engine\Sprite.cpp" />
+    <ClCompile Include="Engine\Texture.cpp" />
+    <ClCompile Include="Engine\TextureManager.cpp" />
+    <ClCompile Include="Game\AncientWizard.cpp" />
+    <ClCompile Include="Game\AWstage.cpp" />
+    <ClCompile Include="Game\StatScene.cpp" />
+    <ClCompile Include="Game\STstage.cpp" />
+    <ClCompile Include="Game\FallenAngel.cpp" />
+    <ClCompile Include="Game\FAstage.cpp" />
+    <ClCompile Include="Game\SkullTree.cpp" />
+    <ClCompile Include="Game\Splash.cpp" />
+    <ClCompile Include="Game\Trainer.cpp" />
+    <ClCompile Include="Game\DBstage.cpp" />
+    <ClCompile Include="Game\Cheat.cpp" />
+    <ClCompile Include="Game\Frontground.cpp" />
+    <ClCompile Include="Game\Particles.cpp" />
+    <ClCompile Include="Game\Background.cpp" />
+    <ClCompile Include="Game\DarkBoar.cpp" />
+    <ClCompile Include="Game\GOAttribute.cpp" />
+    <ClCompile Include="Game\Cinematic.cpp" />
+    <ClCompile Include="Game\GameMap.cpp" />
+    <ClCompile Include="Game\Button.cpp" />
+    <ClCompile Include="Game\CollisionBlock.cpp" />
+    <ClCompile Include="Game\Gravity.cpp" />
+    <ClCompile Include="Game\Hitbox.cpp" />
+    <ClCompile Include="Game\MainMenu.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Game\Settings.cpp" />
+    <ClCompile Include="Game\Slider.cpp" />
+    <ClCompile Include="Game\HUD.cpp" />
+    <ClCompile Include="Game\TutorialStage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Animation.h" />
+    <ClInclude Include="Engine\AtmosphericalDustEmitter.h" />
+    <ClInclude Include="Engine\Camera.h" />
+    <ClInclude Include="Engine\Collision.h" />
+    <ClInclude Include="Engine\Component.h" />
+    <ClInclude Include="Engine\ComponentManager.h" />
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Font.h" />
+    <ClInclude Include="Engine\Game.h" />
+    <ClInclude Include="Engine\GameObject.h" />
+    <ClInclude Include="Engine\GameObjectManager.h" />
+    <ClInclude Include="Engine\Input.h" />
+    <ClInclude Include="Engine\Logger.h" />
+    <ClInclude Include="Engine\Math.h" />
+    <ClInclude Include="Engine\Graphic.h" />
+    <ClInclude Include="Engine\ParticleEmitter.h" />
+    <ClInclude Include="Engine\Scene.h" />
+    <ClInclude Include="Engine\SceneManager.h" />
+    <ClInclude Include="Engine\Audio.h" />
+    <ClInclude Include="Engine\CustomShader.h" />
+    <ClInclude Include="Engine\ShaderManager.h" />
+    <ClInclude Include="Engine\ShaderEffect.h" />
+    <ClInclude Include="Engine\ShowCollision.h" />
+    <ClInclude Include="Engine\Sprite.h" />
+    <ClInclude Include="Engine\Texture.h" />
+    <ClInclude Include="Engine\TextureManager.h" />
+    <ClInclude Include="Game\AncientWizard.h" />
+    <ClInclude Include="Game\AWstage.h" />
+    <ClInclude Include="Game\StatScene.h" />
+    <ClInclude Include="Game\STstage.h" />
+    <ClInclude Include="Game\FallenAngel.h" />
+    <ClInclude Include="Game\FAStage.h" />
+    <ClInclude Include="Game\SkullTree.h" />
+    <ClInclude Include="Game\Splash.h" />
+    <ClInclude Include="Game\Trainer.h" />
+    <ClInclude Include="Game\DBstage.h" />
+    <ClInclude Include="Game\Cheat.h" />
+    <ClInclude Include="Game\Frontground.h" />
+    <ClInclude Include="Game\Particles.h" />
+    <ClInclude Include="Game\Background.h" />
+    <ClInclude Include="Game\DarkBoar.h" />
+    <ClInclude Include="Game\GOAttribute.h" />
+    <ClInclude Include="Game\Cinematic.h" />
+    <ClInclude Include="Game\GameMap.h" />
+    <ClInclude Include="Game\Button.h" />
+    <ClInclude Include="Game\CollisionBlock.h" />
+    <ClInclude Include="Game\Gravity.h" />
+    <ClInclude Include="Game\Hitbox.h" />
+    <ClInclude Include="Game\MainMenu.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Game\Settings.h" />
+    <ClInclude Include="Game\Slider.h" />
+    <ClInclude Include="Game\HUD.h" />
+    <ClInclude Include="Game\TutorialStage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Math.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{616d8aaf-a092-4416-a4ef-0dc9d7bf06cc}</ProjectGuid>
+    <RootNamespace>GAM200Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\rapidjson;$(SolutionDir)external\SFML\include;$(SolutionDir)external\GL\include</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\SFML\$(Platform)\lib;$(SolutionDir)external\GL\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;opengl32.lib;glew32.lib;glfw3dll.lib;imgui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\openal32.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-audio-d-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-system-d-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-graphics-d-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-window-d-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\GL\bin\*.dll" "$(TargetDir)"
+xcopy /y /e "$(ProjectDir)assets" "$(TargetDir)\assets\"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)external\SFML\include;$(SolutionDir)external\GL\include;$(SolutionDir)external\rapidjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)external\SFML\$(Platform)\lib;$(SolutionDir)external\GL\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio.lib;sfml-graphics.lib;sfml-window.lib;opengl32.lib;glew32.lib;glfw3dll.lib;imgui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\openal32.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-audio-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-system-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-window-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\SFML\$(Platform)\bin\sfml-graphics-2.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)external\GL\bin\*.dll" "$(TargetDir)"
+xcopy /y /e "$(ProjectDir)assets" "$(TargetDir)\assets\"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

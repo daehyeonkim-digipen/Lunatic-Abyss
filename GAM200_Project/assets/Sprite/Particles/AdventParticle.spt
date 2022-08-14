@@ -1,0 +1,10 @@
+assets/Sprite/Particles/
+AdventParticle.png
+
+
+FrameSize 1200 600
+HotSpot 600 549
+
+FrameGrid 11 1
+
+Anim AdventParticle.anm

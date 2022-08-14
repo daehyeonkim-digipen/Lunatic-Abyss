@@ -1,0 +1,14 @@
+assets/Sprite/Particles/
+jumpParticle.png
+
+HotSpot 78 5
+FrameSize 160 157
+
+Frame 0 0
+Frame 160 0
+Frame 320 0
+Frame 480 0
+Frame 640 0
+Frame 800 0
+
+Anim jumpParticle.anm

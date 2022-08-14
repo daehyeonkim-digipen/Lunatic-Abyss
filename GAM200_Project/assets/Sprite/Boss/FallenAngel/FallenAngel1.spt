@@ -1,0 +1,14 @@
+assets/Sprite/Boss/FallenAngel/
+FallenAngel1.png
+
+FrameSize 1000 260
+HotSpot 500 256
+CollisionRect -52 0 52 260
+
+FrameGrid 16 1
+
+Anim idle.anm
+Anim LaserL.anm
+Anim LaserR.anm
+Anim WingAttack.anm
+Anim Crack.anm

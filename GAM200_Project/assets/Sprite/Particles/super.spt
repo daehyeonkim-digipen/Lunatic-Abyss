@@ -1,0 +1,9 @@
+assets/Sprite/Particles/
+super.png
+
+FrameSize 150 150
+HotSpot 75 119
+
+FrameGrid 5 1
+
+Anim super.anm

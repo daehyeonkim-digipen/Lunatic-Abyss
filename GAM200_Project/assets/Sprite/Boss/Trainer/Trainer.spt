@@ -1,0 +1,13 @@
+assets/Sprite/Boss/Trainer/
+trainer.png
+
+FrameSize 184 128
+HotSpot 88 119
+
+CollisionRect -10 0 10 65
+
+FrameGrid 6 8
+
+Anim Trainer_Idle.anm
+Anim Trainer_Guard.anm
+Anim Trainer_Atk.anm

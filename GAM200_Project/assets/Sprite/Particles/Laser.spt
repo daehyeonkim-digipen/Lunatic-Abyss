@@ -1,0 +1,11 @@
+assets/Sprite/Particles/
+Laser.png
+
+
+FrameSize 512 630
+HotSpot 256 630
+
+FrameGrid 12 1
+
+
+Anim Laser.anm

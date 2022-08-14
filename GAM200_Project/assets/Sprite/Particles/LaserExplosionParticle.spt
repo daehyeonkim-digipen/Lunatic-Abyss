@@ -1,0 +1,21 @@
+assets/Sprite/Particles/
+LaserExplosionParticle.png
+
+
+
+FrameSize 91 91
+HotSpot 1 91
+
+
+Frame 0 91
+Frame 91 91
+Frame 182 91
+Frame 273 91
+Frame 364 91
+Frame 0 0
+Frame 91 0
+Frame 182 0
+Frame 273 0
+Frame 364 0
+
+Anim LaserExplosionParticle.anm

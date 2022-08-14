@@ -1,0 +1,21 @@
+diff a/GAM200_Project/Game/Weapon.cpp b/GAM200_Project/Game/Weapon.cpp	(rejected hunks)
+@@ -114,12 +111,16 @@
+ 		constexpr double PI = 3.141592;
+ 		std::random_device rd;
+ 		std::mt19937 gen(rd());
+-		std::uniform_real_distribution<double> dis(-0.05, 0.05);
+-		rotation = atan2(playerPos.y - enemyPos.y, playerPos.x - enemyPos.x) + PI * dis(gen);
++		std::uniform_real_distribution<double> dis(-30, 30);
++
++		const auto playerPosRand = playerPos + math::vec2{ dis(gen), dis(gen) };
++		const auto enemyPos = object->get_position();
++		directionVector = (playerPos - enemyPos).Normalize();
+ 	}
+ 	Engine::get_GE_components<Audio>()->play_sound(static_cast<int>(Audio::Effects::Laser));
+ 
+-	Engine::get_GE_components<Game>()->get_game_components<GameObjectManager>()->add_game_object(new Projectile(object, this, name, rotation));
++	math::vec2 firePos = object->get_position();
++	game->get_game_components<GameObjectManager>()->add_game_object(new Projectile(object, firePos, directionVector * bulletSpeed, "assets/Sprite/Projectile/LaserRifle/LaserRifle.spt"));
+ }
+ 
+ void MachineGun::attack(GameObject*)

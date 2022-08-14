@@ -1,0 +1,16 @@
+assets/Sprite/Boss/DarkBoar/Phase1/
+boar.png
+
+FrameSize 300 200
+HotSpot 140 167
+CollisionRect -70 0 70 130
+
+FrameGrid 6 7
+
+Anim boar_idle.anm
+Anim boar_move.anm
+Anim boar_rush.anm
+Anim boar_bite.anm
+Anim boar_push.anm
+Anim boar_back_kick.anm
+Anim boar_transform.anm
