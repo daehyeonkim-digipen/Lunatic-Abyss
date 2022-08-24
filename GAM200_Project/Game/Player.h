@@ -30,7 +30,7 @@ struct PlayerStatus
 	bool HLT1 = false;
 	bool HLT2 = false;
 	bool FTH1 = false;
-	bool FTH2 = true;
+	bool FTH2 = false;
 
 } playerStatus;
 private:
