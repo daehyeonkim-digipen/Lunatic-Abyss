@@ -1,8 +1,10 @@
-## 1. Game Name: Project: N
+## 1. Game Name
+Project: N
 
-## 2. Version: Alpha-1
+## 2. Version
+Alpha-1
 
-## 3. Developer:
+## 3. Developer
 ### Producer's Name: Daehyeon Kim
 DigiPen ID: daehyeon.kim
 Role: -Producer -Audio Designer -Technical Art -Build Engineer -Systems Designer -Tester 
@@ -53,7 +55,9 @@ Right Mouse is Blocking
 Shift is Charge(with ML) or Super Armor Skill(with MR)
 
 
-## 11. FAQ/Common Mistakes: No
+## 11. FAQ/Common Mistakes
+No
 
-## 12. Feedback: Please send the log in project directory.
+## 12. Feedback
+
 
